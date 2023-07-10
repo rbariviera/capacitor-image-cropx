@@ -1,0 +1,50 @@
+{
+  "api": {
+    "name": "ImageCropxPlugin",
+    "slug": "imagecropxplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "show",
+        "signature": "(options: { source: string; width?: number; height?: number; ratio?: string; lock?: boolean; }) => Promise<CropResult>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ source: string; width?: number | undefined; height?: number | undefined; ratio?: string | undefined; lock?: boolean | undefined; }"
+          }
+        ],
+        "returns": "Promise<CropResult>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "CropResult"
+        ],
+        "slug": "show"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "CropResult",
+      "slug": "cropresult",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "value",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
