@@ -1,0 +1,22 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.triplesense.capacitor.plugins.imagecropx" >
+4
+5    <uses-sdk android:minSdkVersion="22" />
+5-->/Users/rbariviera/git/jump-somos_mais_app/node_modules/@triplesense/capacitor-image-cropx/android/src/main/AndroidManifest.xml
+6
+7    <application>
+7-->/Users/rbariviera/git/jump-somos_mais_app/node_modules/@triplesense/capacitor-image-cropx/android/src/main/AndroidManifest.xml:2:5-4:19
+8        <activity
+8-->/Users/rbariviera/git/jump-somos_mais_app/node_modules/@triplesense/capacitor-image-cropx/android/src/main/AndroidManifest.xml:3:9-187
+9            android:name="com.yalantis.ucrop.UCropActivity"
+9-->/Users/rbariviera/git/jump-somos_mais_app/node_modules/@triplesense/capacitor-image-cropx/android/src/main/AndroidManifest.xml:3:43-90
+10            android:exported="true"
+10-->/Users/rbariviera/git/jump-somos_mais_app/node_modules/@triplesense/capacitor-image-cropx/android/src/main/AndroidManifest.xml:3:19-42
+11            android:screenOrientation="portrait"
+11-->/Users/rbariviera/git/jump-somos_mais_app/node_modules/@triplesense/capacitor-image-cropx/android/src/main/AndroidManifest.xml:3:91-127
+12            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+12-->/Users/rbariviera/git/jump-somos_mais_app/node_modules/@triplesense/capacitor-image-cropx/android/src/main/AndroidManifest.xml:3:128-184
+13    </application>
+14
+15</manifest>
